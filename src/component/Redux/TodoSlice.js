@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   todolist: [{ id: 1, title: "eli" }],
+  isEdit: true,
 };
 
 export const todoSlice = createSlice({
